@@ -8,8 +8,8 @@ public class Calculator {
         Scanner sc = new Scanner(System.in, "Windows-1250");
 
         System.out.println("Welcome to the calculator");
-        String pokracovat = "Yes";
-        while (pokracovat.equals("Yes")) {
+        String continue = "Yes";
+        while (continue.equals("Yes")) {
             System.out.println("Enter the first number:");
             float a = Float.parseFloat(sc.nextLine());
             System.out.println("Enter the second number:");
